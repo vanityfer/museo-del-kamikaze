@@ -12,6 +12,8 @@ const httpServer = http.createServer(app);
 app.listen(process.env.PORT || 3000);
 // const PORT = process.env.PORT || 3000;
 
+app.get("/", express.static(path.join(__dirname, "./public")));
+
 
 const canvasSketch = require('canvas-sketch');
 const random = require('canvas-sketch-util/random');
