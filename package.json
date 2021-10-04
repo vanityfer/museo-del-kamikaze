@@ -17,6 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "4.16.1",
     "canvas-sketch": "^0.7.4",
     "canvas-sketch-util": "^1.10.0",
     "fs": "0.0.1-security",
