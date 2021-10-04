@@ -22,5 +22,10 @@
     "canvas-sketch-util": "^1.10.0",
     "fs": "0.0.1-security",
     "tweakpane": "^3.0.5"
+    "xxxxx": {
+      "version": "1.0.3",
+      "resolved": "https://registry.npmjs.org/xxxxx/-/xxxxx-1.0.3.tgz",
+      "integrity": "sha1-YnFMEhv4qTXVelEL+TibC7kB7dM="
+    }
   }
 }
