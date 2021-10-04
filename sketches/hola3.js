@@ -1,3 +1,19 @@
+const http = require("http");
+const path = require("path");
+const fs = require("fs");
+
+
+
+const express = require("express");
+
+const app = express();
+const httpServer = http.createServer(app);
+
+app.listen(process.env.PORT || 3000);
+// const PORT = process.env.PORT || 3000;
+
+
+
 const canvasSketch = require('canvas-sketch');
 const random = require('canvas-sketch-util/random');
 const math = require('canvas-sketch-util/math');
